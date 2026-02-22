@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient( hsl(230, 6%, 20%), hsl(228, 7%, 14%), hsl(240, 5%, 8%), hsl(0, 0%, 0%));
+}
+button{
+    background: linear-gradient(90deg, hsl(120, 86%, 25%), hsl(120, 100%, 50%));
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+
+}
+#Display{
+    background: linear-gradient(90deg, hsl(240, 86%, 25%), hsl(190, 100%, 50%));
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+}
+#Calculator{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color:hsl(210, 5%, 22%);
+    color:  hsl(240, 86%, 25%);
+    transition: box-shadow 1s;
+}
+#special{
+    background: linear-gradient(90deg, hsl(240, 86%, 25%), hsl(190, 100%, 50%));
+    color: white;
+}
+button:hover{
+    background: linear-gradient(90deg, hsl(120, 86%, 20%), hsl(120, 100%, 40%));
+}
+button:active{
+    background: linear-gradient(90deg, hsl(120, 86%, 15%), hsl(120, 100%, 30%));
+}
+#special:hover{
+    background: linear-gradient(90deg, hsl(240, 86%, 20%), hsl(190, 100%, 40%));
+}
+#special:active{
+    background: linear-gradient(90deg, hsl(240, 86%, 15%), hsl(190, 100%, 30%));
+}
+#Display:hover{
+    background: linear-gradient(90deg, hsl(240, 86%, 20%), hsl(190, 100%, 40%));
+}
+#Calculator:hover{
+    box-shadow: 0px 0px 70px;
+}
